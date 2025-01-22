@@ -1,0 +1,61 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createaddition:electrum_sheet"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "item": "minecraft:emerald"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "createaddition:electrum_sheet"
+        },
+        {
+          "amount": 2025,
+          "fluid": "sliceanddice:fertilizer",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "createaddition:electrum_sheet"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createaddition:electrum_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "createaddition:electrum_sheet"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createaddition:electrum_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "createaddition:electrum_sheet"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "createaddition:electrum_sheet"
+  }
+}
